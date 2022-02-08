@@ -1,4 +1,4 @@
 # e-school-landing-webpage-5
 
 ### Live Site
-[Click for live site](_https://mi-araf.github.io/e-school-landing-webpage-5/_)
+[Click for live site]("https://mi-araf.github.io/e-school-landing-webpage-5/")
