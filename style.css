@@ -1,6 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+:root {
+     --color-primary: #21B573;
+     --color-secondary: #F0FFF0;
+     --color-tartiary: #FD511A;
+     --color-forth: #F8FFFB;
+}
 
-#nav-sign-in {
-    background: #21B573;
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--color-secondary);
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.sign-in {
+    background-color: var(--color-primary);
     border-radius: 33px;
+    color: white !important;
+}
+
+.sign-in:focus {
+    outline: none;
+}
+
+.my-btn {
+    border: none;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 33px;
+    font-size: 16px;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .55);
+    padding: 10px 25px;
 }
