@@ -128,3 +128,15 @@ header {
 .seats {
     margin-left: 89px;
 }
+/*  */
+
+/* testimonail */
+#testimonial {
+    margin: 16px 30px;
+}
+#testimonial > .container > h1 {
+    font-weight: 600;
+}
+/*  */
+
+/* footer */
