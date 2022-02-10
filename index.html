@@ -31,16 +31,16 @@
                             <a class="nav-link active text-center" aria-current="page" href="#">Books</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-center" href="#">Courses</a>
+                            <a class="nav-link text-center" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-center" href="#">Others</a>
+                            <a class="nav-link text-center" href="#footer">Others</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-center" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn sign-in" href="#">Sign In</a>
+                            <a class="nav-link btn sign-in" data-bs-toggle="modal" data-bs-target="#modal-sign-in">Sign In</a>   <!--href="#modal-sign-in"-->
                         </li>
                     </ul>
                 </div>
@@ -207,15 +207,100 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>  <br>
         <!-- Testimonial ends -->
 
     </main>
 
-    <footer id="footer" class="py-5">
+    <footer id="footer" class="bg-dark py-5 text-white">
+        <div class="container">
 
+            <div class="footer-grid">
+
+                <div class="footer-grid-1">
+                    Millions of people of all ages and from around the world are improving their lives with us.
+                </div>     
+
+                <div class="footer-grid-2">
+                    <div>
+                        <ul>
+                            <li class="footer-active"> Course</li>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li class="footer-active">Terms</li>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li class="footer-active">Useful Link</li>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Business</li>
+                            <li>Marketing</li>
+                            <li>Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="copy text-center mt-5">
+                <small>Copyright &copy; 2022; All Rights Reserved. <br> Mushi Araf</small>
+           </div>
+
+        </div>
     </footer>
 
+
+    <!-- Click on Modal Button -->
+    <!-- <button type="button" class="btn btn-primary mx-auto d-block mt-5" data-bs-toggle="modal" data-bs-target="#modalForm">
+        Bootstrap Modal popup
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-sign-in" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">E-School Sign-In Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Username" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe" />
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <p class="float-start">Not yet a member? &nbsp; <a href="#">Sign Up</a></p>
+                            <button type="submit" class="btn btn-outline-primary float-end">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
