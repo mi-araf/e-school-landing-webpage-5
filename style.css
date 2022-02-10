@@ -105,3 +105,26 @@ header {
     background-color: white;
     box-shadow: 0 0 40px rgba(0, 0, 0, .2);
 }
+
+/*  */
+/* online courses */
+.cor-card {
+    border-radius: 18px;
+}
+/* .cor-card > img {
+    padding: ;
+} */
+.cor-card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    padding: 15px 15px;
+}
+.cor-card:hover {
+    background-color: var(--color-forth);
+    transition: 0.2s ease-in-out all;
+    box-shadow: 0 0 40px rgba(20, 19, 20, 0.415);
+}
+.seats {
+    margin-left: 89px;
+}
